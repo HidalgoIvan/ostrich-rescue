@@ -54,8 +54,23 @@
         <p>We ship our ostriches at the start of their reproductive life. For this reason, they will sing their beautiful mating call every day from 1 am to 4 am. Please do not interrupt your ostrich during this beautiful, natural time.</p>
         <p>The only exception to this rule is New Year's Eve and New Year's Day. On those days, the ostrich will not sing and will instead require absolute silence in the house for the full 48 hours.</p>
       </section>
+      <section class="card">
+        <button id="cancel-btn" class="btn" type="button">I want to cancel my ostrich shipment</button>
+      </section>
     </div>
   </main>
+
+
+  <div id="overlay" class="overlay hidden" role="status" aria-live="polite">
+    <div class="overlay-inner">
+      <div id="ov-spinner" class="spinner" aria-hidden="true"></div>
+      <svg id="ov-check" class="check hidden" viewBox="0 0 52 52" aria-hidden="true">
+        <circle cx="26" cy="26" r="24" fill="none" stroke="currentColor" stroke-width="3"/>
+        <path d="M14 27l8 8 16-17" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <p id="ov-text">Loading...</p>
+    </div>
+  </div>
 
   <footer class="site-footer">Protecting wildlife, one ostrich at a time.</footer>
   <script src="script.js"></script>
