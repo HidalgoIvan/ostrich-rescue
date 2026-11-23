@@ -11,5 +11,5 @@ setTimeout(() => {
   setTimeout(() => {
     loader.classList.add('hidden');
     result.classList.remove('hidden');
-  }, 1800);
+  }, 3000);
 }, 3000);
