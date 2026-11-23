@@ -7,7 +7,7 @@ const result = document.getElementById('result');
 setTimeout(() => {
   spinner.classList.add('hidden');
   check.classList.remove('hidden');
-  text.textContent = "User's address pulled from Customink's database!";
+  text.textContent = "Your address has been pulled from Customink's database!";
   setTimeout(() => {
     loader.classList.add('hidden');
     result.classList.remove('hidden');
