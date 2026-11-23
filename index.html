@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ostrich Rescue Program</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section id="loader" class="screen" aria-live="polite">
+      <div id="spinner" class="spinner" aria-hidden="true"></div>
+      <svg id="check" class="check hidden" viewBox="0 0 52 52" aria-hidden="true">
+        <circle cx="26" cy="26" r="24" fill="none" stroke="currentColor" stroke-width="3"/>
+        <path d="M14 27l8 8 16-17" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <p id="loader-text">Getting user location</p>
+    </section>
+
+    <section id="result" class="screen hidden">
+      <img id="ostrich" src="ostrich.svg" alt="A very real ostrich on its way to you">
+      <p>Thank you for participating in the free ostrich rescue program! Your live ostrich is on its way to your home address right now! There is nothing extra you need to do to arrange the delivery.</p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
